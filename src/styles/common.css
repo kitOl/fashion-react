@@ -1,0 +1,17 @@
+:root {
+  --textColor: #000;
+  --yellow: #ebd96b;
+
+  --header-bg-color: #f4f6f5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--textColor);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1780px;
+  padding: 0 30px;
+}

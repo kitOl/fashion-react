@@ -1,9 +1,11 @@
-function App() {
-  const project = "Fashion";
+import Header from "./components/header/Header";
+import Promo from "./components/promo/Promo";
 
+function App() {
   return (
     <div className="App">
-      <h1>{project}</h1>
+      <Header />
+      <Promo />
     </div>
   );
 }
